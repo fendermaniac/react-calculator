@@ -1,0 +1,55 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 2rem;
+  background-color: lightGreen;
+}
+/* Buttons styles start */
+button {
+  display: inline-block;
+  border: none;
+  border-radius: 5%;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  width: 21%;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+button:hover,
+button:focus {
+  background: #0053ba;
+}
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+button:active {
+  transform: scale(0.99);
+}
+/* Button styles end */
+
+.frame {
+  border: 2px solid black;
+  border-radius: 2.5%;
+  padding: 1%;
+  margin: auto;
+  margin-top: 10%;
+  max-width: 400px;
+  background-color: salmon;
+}
+
+.screen {
+  text-align: right;
+  margin: 2%;
+  padding-right: 2.5%;
+  border: 2px solid black;
+  background-color: white;
+}
